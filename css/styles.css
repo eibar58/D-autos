@@ -1,0 +1,71 @@
+body{
+    background-image: url('../img/ddddd.jpeg');
+    background-size: cover;
+}
+header{
+    text-align: center;
+
+}
+.custon-nav .nav-link{
+    font-size: 20px; /* aumenta el tamañano de la fuente */
+    color: rgb(252, 252, 252); /*cambia el coloral texto  negro*/
+}
+
+.custon-nav .nav-link.active,
+.custon-nav .nav-link:focus {
+    background-color:  rgb(0, 0, 0);
+    
+
+}
+.custon-nav .nav-link:hover{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
+.carousel.item img{
+    height: 30px; /*cambia la altura para hacer el carrusel mas pequeño*/
+    object-fit: cover; /* asegura que la imagen mantega su proporcion*/
+}
+.carusel{
+    width: 80%; /*Ajusta el ancho del carrusel */
+    margin: 0 auto; /* centrael carrusel */
+}
+.bienvenido-text {
+    font-size:3rem; /* tamaño de letra grande 
+    font-family: 'Noto+Sans';  /* aplica la fuente dancing script*/
+    margin: 10px; /* espacio superior e inferior*/
+    color: rgb(247, 46, 46); /* color del texto*/
+}
+.container {
+    max-width: 100%; /* se adapta al ancho de la pantalla */
+    padding: 15px; /* centra el contenedor horinzontalmente */
+}
+
+footer  {
+    background-color: rgb(142, 170, 212);
+    padding: 20px 0;
+    text-align: center;
+
+
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.footer-icons a {
+    text-decoration: none;
+}
+
+.footer-icons a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.footer-icons a img:hover{
+    transform: scale(1.2);
+}
